@@ -1,7 +1,7 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {section}{\numberline {1}Problema de investigación}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Descripción / Enunciado}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Planteamiento / Formulación}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.1}Descripción del Problema}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Formulación del Problema}{2}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Pregunta de investigación}{2}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Justificación}{2}{section.2}%
 \contentsline {section}{\numberline {3}Objetivos de investigación}{2}{section.3}%
@@ -12,6 +12,6 @@
 \contentsline {section}{\numberline {6}Hipótesis}{3}{section.6}%
 \contentsline {section}{\numberline {7}Operacionalización de variables}{3}{section.7}%
 \contentsline {section}{\numberline {8}Metodología}{3}{section.8}%
-\contentsline {section}{\numberline {9}Recolección de la información en campo}{3}{section.9}%
+\contentsline {section}{\numberline {9}Recolección de la información en campo}{4}{section.9}%
 \contentsline {section}{\numberline {10}Procesamiento y análisis de Datos}{4}{section.10}%
 \contentsline {section}{Referencias}{4}{section.10}%

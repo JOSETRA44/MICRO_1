@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1781465254.58806 "c:/Users/USER/OneDrive/Desktop/2026-1/MICROECONOMIA/tif-micro/micro.tex" "micro.pdf" "micro" 1781465256.05314 2
+["pdflatex"] 1781465597.43259 "c:/Users/USER/OneDrive/Desktop/2026-1/MICROECONOMIA/tif-micro/micro.tex" "micro.pdf" "micro" 1781465598.76325 0
   "C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779253038 338208 012d198c3b15f5862bb38172a30f03d1 ""
   "C:/Users/USER/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776899843 24224814 712a80433f1f93b93c306390b27084a5 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -136,6 +136,7 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/kvsetkeys.sty" 1665066333 13815 760b0c02f691ea230f5359c4e1de23a7 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1704400941 30006 57b07afb710ee2f649c65cfbafda39c1 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/letltxmacro/letltxmacro.sty" 1575399536 5766 13a9e8766c47f30327caf893ece86ac8 ""
+  "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/multirow/multirow.sty" 1731767677 6696 886c9f3087d0b973ed2c19aa79cb3023 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgf.sty" 1673775190 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/pgf/basiclayer/pgfcore.sty" 1673775190 373 00b204b1d7d095b892ad31a7494b0373 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty" 1673775190 21013 f4ff83d25bb56552493b030f27c075ae ""
@@ -161,12 +162,12 @@
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/USER/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/USER/OneDrive/Desktop/2026-1/MICROECONOMIA/tif-micro/micro.tex" 1781465251 10007 4642286f2a82ff82eb4aba6684281e1a ""
+  "c:/Users/USER/OneDrive/Desktop/2026-1/MICROECONOMIA/tif-micro/micro.tex" 1781465596 12306 ff2c778669a0784cf954fbf0f5894e25 ""
   "logo_unsa.png" 1762524879 172265 31c79c4250617bfce1c049189d5dd4d2 ""
-  "micro.aux" 1781465255 2438 2c8ab77e90e12835526d66cb7a0e3caa "pdflatex"
-  "micro.out" 1781465255 2689 be35194ad7c54ac2ae1f47169ac47e7e "pdflatex"
-  "micro.tex" 1781465251 10007 4642286f2a82ff82eb4aba6684281e1a ""
-  "micro.toc" 1781465255 1337 2151c97b2803a5b5fafc3e5d9d9efba5 "pdflatex"
+  "micro.aux" 1781465598 2436 1d06b6dec89247de74cde91688c3e6e7 "pdflatex"
+  "micro.out" 1781465598 2679 5dfcff444d20eb59fde415c5ca0ac5ec "pdflatex"
+  "micro.tex" 1781465596 12306 ff2c778669a0784cf954fbf0f5894e25 ""
+  "micro.toc" 1781465598 1335 6f42ecd4927d3e1fa4286d624bab8deb "pdflatex"
   (generated)
   "micro.aux"
   "micro.log"

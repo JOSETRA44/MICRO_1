@@ -21,6 +21,7 @@
 \singlespacing
 \setlength{\parindent}{1.27cm}
 \usepackage{booktabs}
+\usepackage{multirow}
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
@@ -79,11 +80,11 @@
 
 % --- SECCIÓN 1 ---
 \section{Problema de investigación}
-\subsection{Descripción / Enunciado}
+\subsection{Descripción del Problema}
 La investigación aborda la influencia de la inversión educativa en la percepción de éxito profesional futuro en estudiantes de la Universidad Nacional de San Agustín (UNSA). En Arequipa, la dinámica demográfica muestra que el 26.1\,\% de las mujeres jóvenes y el 22.1\,\% de los hombres jóvenes cursan estudios universitarios. Este incremento presiona la demanda de recursos educativos, en un contexto donde existen notables diferencias estructurales entre instituciones públicas y privadas.
 
-\subsection{Planteamiento / Formulación}
-Existe un desconocimiento empírico respecto a cómo la asignación de recursos limitados —tanto financieros como de infraestructura tecnológica— impacta en las proyecciones de rentabilidad laboral de los universitarios. Por un lado, las universidades privadas de Arequipa (como UCSM y UCSP) han acelerado la adquisición de laboratorios avanzados y programas de empleabilidad corporativa; por otro lado, la UNSA, a pesar de estar posicionada como la cuarta mejor universidad pública del país (SUNEDU, 2026), enfrenta severas restricciones presupuestales y tecnológicas que limitan el acceso universal a recursos formativos de vanguardia.
+\subsection{Formulación del Problema}
+Existe un desconocimiento empírico respecto a cómo la asignación de recursos limitados —tanto financieros como de infraestructura tecnológica— impacta en las proyecciones de rentabilidad laboral de los universitarios. Por un lado, las universidades privadas de Arequipa han acelerado la adquisición de laboratorios avanzados y programas de empleabilidad corporativa que aseguran competencias altamente demandadas; por otro lado, la UNSA, a pesar de estar posicionada como la cuarta mejor universidad pública del país (SUNEDU, 2026), enfrenta severas restricciones tecnológicas. Esta disparidad impide a los estudiantes del sector público cumplir con las especializaciones técnicas prácticas exigidas en las convocatorias laborales actuales de la región, mermando su competitividad para acceder al salario formal promedio regional de S/ 2,136.
 
 \subsection{Pregunta de investigación}
 ¿Cuál es la relación entre la inversión educativa (dedicación al estudio y acceso a recursos tecnológicos/académicos) y el desarrollo profesional esperado de los estudiantes de pregrado de la UNSA durante el año 2026?
@@ -104,7 +105,9 @@ Determinar la relación teórica y metodológica entre el nivel de inversión ed
 
 % --- SECCIÓN 4 ---
 \section{Antecedentes y Estado de la Cuestión}
-Las estadísticas demuestran que la calidad y disposición de recursos incide en las expectativas profesionales. En Arequipa, durante el primer semestre de 2026, instituciones privadas como la UCSM inauguraron infraestructura especializada superior a los S/ 10 millones, mientras que la UCSP fortaleció laboratorios industriales y de telemática que favorecieron el éxito de startups locales. En contraste, los estudiantes de universidades públicas enfrentan la paralización de servicios debido a crisis de infraestructura digital (como el colapso informático de la UNSA en junio de 2026) y carecen de programas robustos de inserción corporativa en comparación con instituciones como UTP o USMP. Estas asimetrías forman la base del estado actual del problema sobre cómo la restricción de recursos frena la rentabilidad laboral esperada.
+Las estadísticas demuestran que la calidad y disposición de recursos incide fuertemente en las expectativas profesionales y la posterior inserción laboral. En la región de Arequipa, el mercado laboral presenta una alarmante brecha de empleabilidad: el 50\,\% de los jóvenes graduados de universidades e institutos no logra acceder a un empleo formal de manera inmediata (Gerencia Regional de Trabajo y Promoción del Empleo [GRTPE], 2026). Esta precarización se traduce en más de 35,000 profesionales calificados operando en la informalidad debido a una pronunciada brecha de competencias o \textit{skill mismatch}. 
+
+A nivel institucional, durante el primer semestre de 2026, instituciones privadas como la UCSM inauguraron infraestructura especializada superior a los S/ 10 millones, mientras que la UCSP fortaleció laboratorios industriales automatizados que favorecieron el éxito de startups locales. Adicionalmente, universidades como UTP y USMP despliegan programas robustos de empleabilidad (como Generación TOP o Ruta Laboral Virtual) que conectan a sus egresados con corporaciones líderes como Claro Perú o empresas mineras. En contraste, los estudiantes de universidades públicas enfrentan paralizaciones por crisis de infraestructura digital (como el colapso informático de la UNSA en junio de 2026) y carecen de estos servicios complementarios corporativos. Estas asimetrías profundizan el estado actual del problema sobre cómo la restricción de recursos frena la rentabilidad laboral esperada.
 
 % --- SECCIÓN 5 ---
 \section{Marco Teórico}
@@ -135,10 +138,12 @@ A mayor nivel de inversión educativa (medida en dedicación de horas al estudio
 
 % --- SECCIÓN 8 ---
 \section{Metodología}
+De acuerdo con la naturaleza del estudio y siguiendo los lineamientos metodológicos de Hernández Sampieri, Fernández Collado y Baptista Lucio (2014), el marco metodológico se estructura de la siguiente manera:
 \begin{itemize}
-    \item \textbf{Método y diseño:} Cuantitativo, diseño no experimental, transversal y correlacional.
-    \item \textbf{Población y muestra:} Estudiantes matriculados en pregrado en la UNSA durante el semestre 2026-1. Muestreo aleatorio estratificado por facultades.
-    \item \textbf{Técnicas e instrumentos:} Encuesta estructurada mediante cuestionario online.
+    \item \textbf{Enfoque:} Cuantitativo, dado que se busca medir estadísticamente la magnitud de la relación entre variables a través de la recolección estructurada de datos.
+    \item \textbf{Diseño:} No experimental, transeccional y correlacional. No experimental porque los fenómenos (nivel de recursos y expectativas) se observarán en su ambiente natural sin manipulación deliberada; transeccional ya que los datos se recolectarán en un único momento temporal (semestre 2026-1); y correlacional, con el propósito de describir la asociación entre la inversión educativa y el desarrollo esperado sin establecer causalidad estricta (Hernández Sampieri et al., 2014).
+    \item \textbf{Población y muestra:} Estudiantes matriculados en estudios de pregrado en la UNSA durante el año académico 2026. Se aplicará un muestreo aleatorio estratificado proporcional según facultades para garantizar la representatividad.
+    \item \textbf{Técnicas e instrumentos:} Encuesta estructurada administrada a través de un cuestionario digital, compuesto por escalas de tipo Likert y mediciones de razón (horas y gastos).
 \end{itemize}
 
 % --- SECCIÓN 9 ---
@@ -161,6 +166,14 @@ Schultz, T. W. (1961). \textit{Investment in Human Capital}. The American Econom
 \vspace{0.2cm}
 \noindent\hangindent=1.27cm
 Superintendencia Nacional de Educación Superior Universitaria [SUNEDU]. (2026). \textit{Ranking Histórico y de Excelencia de Universidades Peruanas}.
+
+\vspace{0.2cm}
+\noindent\hangindent=1.27cm
+Gerencia Regional de Trabajo y Promoción del Empleo [GRTPE]. (2026). \textit{Informe sobre Empleabilidad y Brecha de Competencias en la Región Arequipa}.
+
+\vspace{0.2cm}
+\noindent\hangindent=1.27cm
+Hernández Sampieri, R., Fernández Collado, C., \& Baptista Lucio, P. (2014). \textit{Metodología de la investigación} (6.ª ed.). McGraw-Hill Education.
 
 \vspace{0.2cm}
 \noindent\hangindent=1.27cm
