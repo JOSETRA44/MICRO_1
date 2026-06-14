@@ -24,6 +24,10 @@
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
+\usepackage{titlesec}
+\titleformat{\section}{\normalsize\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
@@ -43,12 +47,14 @@
     
     \includegraphics[width=0.25\textwidth]{logo_unsa.png} \\[1cm]
     
-    {\Large \textbf{¿Debe ajustarse la tarifa del transporte público urbano en Arequipa?}} \\[0.5cm]
-    {\large \textit{Un análisis microeconómico aplicado al mercado de buses urbanos.}}
+    {\Large \textbf{Trabajo de Investigación Formativa}} \\[0.5cm]
+    {\large \textit{TEMA}}
     \vspace{1cm}
     
     \begin{flushleft}
-        \textbf{Docente:} Dr. Edwin Bejar Zea \\[0.5cm]
+        \textbf{CURSO:} Microeconomía \\[0.3cm]
+        \textbf{DOCENTE:} Dr. Edwin Bejar Zea \\[0.3cm]
+        \textbf{SEMESTRE:} 2026-A \\[0.5cm]
         \textbf{Integrantes:}
         \begin{itemize}
             \item Callo Ccama, Franklin
@@ -72,167 +78,92 @@
 \newpage
 
 % --- SECCIÓN 1 ---
-\section{Resumen del artículo base}
-El estudio investiga la elasticidad-precio de la demanda en el sistema de transporte masivo Megabús en Pereira, Colombia. Mediante el uso de intervalos de confianza y análisis de series de tiempo de diversos incrementos tarifarios, los autores tuvieron el objetivo de determinar la sensibilidad de los consumidores ante la subida de los costos de transporte. Los resultados muestran que, en los tres periodos iniciales analizados, el sistema presentó una demanda inelástica con valores entre 0.18 y 0.47, lo que demuestra que la subida de precios no fue el factor determinante que influyó en la variación de la demanda inicial. 
+\section{Problema de investigación}
+\subsection{Descripción / Enunciado}
+La investigación aborda la influencia de la inversión educativa en la percepción de éxito profesional futuro en estudiantes de la Universidad Nacional de San Agustín (UNSA). En Arequipa, la dinámica demográfica muestra que el 26.1\,\% de las mujeres jóvenes y el 22.1\,\% de los hombres jóvenes cursan estudios universitarios. Este incremento presiona la demanda de recursos educativos, en un contexto donde existen notables diferencias estructurales entre instituciones públicas y privadas.
 
-Además, se aclara que en periodos posteriores la demanda se tornó más elástica, a tal punto que superó la unidad llegando a 1.89. Esta transición se le atribuye a factores externos críticos, como el crecimiento del mercado de motocicletas, cambios en la calidad del servicio y la apertura de nuevas rutas alimentadoras. El artículo concluye que las decisiones sobre las tarifas deben tener una base técnica y no solo política, tomando en cuenta variables como la competencia informal y la satisfacción del consumidor para garantizar la sostenibilidad financiera del sistema.
+\subsection{Planteamiento / Formulación}
+Existe un desconocimiento empírico respecto a cómo la asignación de recursos limitados —tanto financieros como de infraestructura tecnológica— impacta en las proyecciones de rentabilidad laboral de los universitarios. Por un lado, las universidades privadas de Arequipa (como UCSM y UCSP) han acelerado la adquisición de laboratorios avanzados y programas de empleabilidad corporativa; por otro lado, la UNSA, a pesar de estar posicionada como la cuarta mejor universidad pública del país (SUNEDU, 2026), enfrenta severas restricciones presupuestales y tecnológicas que limitan el acceso universal a recursos formativos de vanguardia.
+
+\subsection{Pregunta de investigación}
+¿Cuál es la relación entre la inversión educativa (dedicación al estudio y acceso a recursos tecnológicos/académicos) y el desarrollo profesional esperado de los estudiantes de pregrado de la UNSA durante el año 2026?
 
 % --- SECCIÓN 2 ---
-% --- SECCIÓN 2 ---
-\section{Definición del mercado analizado}
-El mercado analizado corresponde al servicio de transporte público urbano en Arequipa, donde se intercambia el servicio de movilidad de pasajeros por una tarifa. Este mercado tiene la característica particular de no ser un bien final, sino un bien intermedio de demanda derivada, ya que los usuarios lo requieren para realizar otras actividades económicas y sociales. En la ciudad, este mercado se ve influenciado por problemas estructurales como la informalidad, la sobreoferta de unidades y la congestión vehicular, los cuales afectan tanto la eficiencia como el comportamiento de la demanda (Ministerio de Transportes y Comunicaciones, 2022).
+\section{Justificación}
+Es crucial comprender la toma de decisiones del estudiante como un agente económico racional. Desde la microeconomía, el universitario asigna recursos escasos (tiempo, dinero y capacidad cognitiva) con la expectativa de maximizar su utilidad intertemporal y su futura capacidad económica en el mercado laboral. La brecha de infraestructura en la región subraya la necesidad de investigar si esta disparidad de recursos altera las expectativas salariales (actualmente promediadas en S/ 2,136 a nivel formal regional) y de empleabilidad.
 
-\subsection{Oferta y sus determinantes}
-La oferta de transporte contempla los atributos físicos e institucionales que disponen las empresas de buses para prestar el servicio. Actualmente, el mercado arequipeño presenta una grave falla de planificación, evidenciada en un exceso de 39\,\% en el número de buses y una sobreoferta de rutas del 51\,\%.
-Aplicando la teoría microeconómica, identificamos tres determinantes clave de la oferta en este mercado:
-\begin{enumerate}
-    \item \textbf{Costo de los factores de producción:} El incremento en el precio del combustible (diésel), lubricantes y mantenimiento de una flota deteriorada reduce la disposición a ofertar el servicio al mismo precio.
-    \item \textbf{Tecnología e infraestructura:} El estado deficiente de las vías y la alta congestión vehicular en Arequipa aumentan los tiempos de ciclo de cada bus, reduciendo la eficiencia de la oferta efectiva.
-    \item \textbf{Número de competidores:} La excesiva cantidad de empresas y buses superpuestos en las mismas rutas distorsiona la cantidad ofertada, generando ineficiencias operativas.
-\end{enumerate}
-
-\subsection{Demanda y sus determinantes}
-Conformada por estudiantes, trabajadores y ciudadanos en general que buscan maximizar su bienestar eligiendo opciones que ofrezcan menor tiempo de viaje y bajo costo. Identificamos tres determinantes principales para la demanda arequipeña:
-\begin{enumerate}
-    \item \textbf{Ingreso de los consumidores:} Al ser un bien normal y de primera necesidad, el presupuesto limitado de estudiantes y hogares de menores ingresos condiciona su dependencia del transporte masivo formal.
-    \item \textbf{Precio y disponibilidad de bienes sustitutos:} La fuerte presencia de transporte informal y la facilidad para adquirir motocicletas actúan como sustitutos cercanos que amenazan la demanda formal.
-    \item \textbf{Preferencias y calidad del servicio:} El tiempo de desplazamiento, el confort y la seguridad determinan si el usuario acepta la tarifa o prefiere caminar o buscar rutas alternativas (MTC, 2022).
-\end{enumerate}
-
-\subsection{Variable precio}
-Representada por la tarifa del pasaje urbano. Existe una relación inversa entre el precio y la cantidad demandada. En el transporte público a corto plazo, esta relación suele ser inelástica, lo que significa que los usuarios continúan utilizando el servicio pese a variaciones en la tarifa por ser una necesidad básica (Escobar et al., 2020).
 % --- SECCIÓN 3 ---
-\section{Representación gráfica de oferta y demanda}
-
-El siguiente gráfico ilustra el impacto microeconómico del incremento tarifario en el mercado de buses urbanos.
-
-\vspace{0.4cm}
-\noindent \textbf{Figura 1} \\
-\textit{Efecto del incremento tarifario en el equilibrio del mercado de buses urbanos}
-
-\begin{center}
-\begin{tikzpicture}[xscale=2.2, yscale=1.5]
-    % Ejes
-    \draw[->, thick] (0,0) -- (4.5,0) node[right] {Cantidad ($Q$) en miles};
-    \draw[->, thick] (0,0) -- (0,5.5) node[above] {Precio ($P$)};
-    
-    % Curva de Demanda (Inelástica = empinada)
-    \draw[thick, blue] (1.3, 4.5) -- (2.8, 0.5) node[right] {$D$};
-    
-    % Curva de Oferta Inicial (O1)
-    \draw[thick, red] (0.5, 0.3) -- (3.8, 3.6) node[right] {$O_1$};
-    
-    % Curva de Oferta Desplazada (O2)
-    \draw[thick, red, dashed] (0.1, 1.4) -- (3.4, 4.7) node[right] {$O_2$};
-    
-    % Punto de Equilibrio 1
-    \coordinate (E1) at (2.3, 2.1);
-    \filldraw[black] (E1) circle (1.5pt) node[right] {$E_1$};
-    \draw[dashed, thick] (E1) -- (2.3, 0) node[below] {$140$};
-    \draw[dashed, thick] (E1) -- (0, 2.1) node[left] {S/ $1.80$};
-    
-    % Punto de Equilibrio 2
-    \coordinate (E2) at (1.9, 3.2);
-    \filldraw[black] (E2) circle (1.5pt) node[left=2pt] {$E_2$};
-    \draw[dashed, thick] (E2) -- (1.9, 0) node[below] {$135$};
-    \draw[dashed, thick] (E2) -- (0, 3.2) node[left] {S/ $2.20$};
-    
-    % Flechas de movimiento
-    \draw[->, thick, gray] (2.7, 2.5) -- (2.3, 3.6);
-    \node[gray] at (3.1, 3.1) {Menor oferta};
-\end{tikzpicture}
-\end{center}
-
-\noindent \textit{Nota.} El paso del equilibrio inicial $E_1$ al nuevo equilibrio $E_2$ responde a dos procesos simultáneos. Primero, un \textbf{desplazamiento de la curva de oferta hacia la izquierda} debido al incremento de los costos operativos como el combustible y mantenimiento. Segundo, un \textbf{movimiento ascendente sobre la curva de demanda}: al establecerse un nuevo precio de equilibrio más alto de S/ 2.20, la cantidad demandada se contrae levemente. La curva de demanda, al ser muy empinada por ser inelástica, demuestra que el impacto en la cantidad es porcentualmente menor que el impacto en el precio. Elaboración propia.
+\section{Objetivos de investigación}
+\subsection{Objetivo General}
+Determinar la relación teórica y metodológica entre el nivel de inversión educativa y el desarrollo profesional esperado en los estudiantes de la UNSA.
+\subsection{Objetivos Específicos}
+\begin{enumerate}
+    \item Definir las dimensiones de la inversión educativa, específicamente en tiempo de dedicación y acceso a recursos tecnológicos e institucionales.
+    \item Estructurar los instrumentos de medición teóricos para evaluar el desarrollo profesional esperado y las expectativas salariales de reserva.
+\end{enumerate}
 
 % --- SECCIÓN 4 ---
-\section{Cálculo e interpretación de la elasticidad-precio de la demanda}
-
-\textbf{Asunción de la cantidad demandada:} \\
-Como equipo consultor, asumimos y justificamos que ante un incremento tarifario de S/ 1.80 a S/ 2.20, la cantidad demandada se reducirá de 140,000 a \textbf{135,000 viajes diarios}. Esta leve caída se sustenta en la evidencia del artículo base (Escobar et al., 2020), el cual demuestra que en el corto plazo el transporte masivo tiene una demanda inelástica al ser un bien de primera necesidad sin sustitutos inmediatos para trabajadores y estudiantes.
-
-\textbf{Cálculo mediante fórmula de arco (punto medio):} \\
-Considerando los datos iniciales y propuestos:
-\begin{itemize}
-    \item $P_1 = \text{S/ } 1.80$, \quad $P_2 = \text{S/ } 2.20$
-    \item $Q_1 = 140,000$, \quad $Q_2 = 135,000$
-\end{itemize}
-
-Determinamos las variaciones y promedios:
-\begin{align*}
-    \Delta Q &= 135,000 - 140,000 = -5,000 \\
-    \text{Promedio } Q &= \frac{140,000 + 135,000}{2} = 137,500 \\
-    \% \Delta Q &= \frac{-5,000}{137,500} \approx -0.03636 \, (-3.636\%) \\[10pt]
-    \Delta P &= 2.20 - 1.80 = 0.40 \\
-    \text{Promedio } P &= \frac{1.80 + 2.20}{2} = 2.00 \\
-    \% \Delta P &= \frac{0.40}{2.00} = 0.20 \, (20\%)
-\end{align*}
-
-Aplicando la fórmula de la elasticidad-precio ($E_p$):
-\begin{equation*}
-    E_p = \frac{\% \Delta Q}{\% \Delta P} = \frac{-0.03636}{0.20} = \mathbf{-0.1818}
-\end{equation*}
-
-\textbf{Interpretación económica:} \\
-La elasticidad calculada es de aproximadamente \textbf{-0.18}. Al ser su valor absoluto menor a 1 ($|E_p| < 1$), se concluye que la demanda es \textbf{inelástica}. Esto implica que los usuarios son poco sensibles al aumento del precio en el corto plazo; por cada 10\,\% que aumenta la tarifa, la cantidad de viajes cae solo un 1.8\,\%. Como resultado directo, este incremento tarifario generará mayores ingresos totales para los operadores, dado que el aumento en el precio compensa con creces la pérdida marginal de pasajeros.
+\section{Antecedentes y Estado de la Cuestión}
+Las estadísticas demuestran que la calidad y disposición de recursos incide en las expectativas profesionales. En Arequipa, durante el primer semestre de 2026, instituciones privadas como la UCSM inauguraron infraestructura especializada superior a los S/ 10 millones, mientras que la UCSP fortaleció laboratorios industriales y de telemática que favorecieron el éxito de startups locales. En contraste, los estudiantes de universidades públicas enfrentan la paralización de servicios debido a crisis de infraestructura digital (como el colapso informático de la UNSA en junio de 2026) y carecen de programas robustos de inserción corporativa en comparación con instituciones como UTP o USMP. Estas asimetrías forman la base del estado actual del problema sobre cómo la restricción de recursos frena la rentabilidad laboral esperada.
 
 % --- SECCIÓN 5 ---
-\section{Análisis económico argumentado}
-
-El aumento tarifario, aunque justificable desde la óptica de la cobertura de costos operativos inflacionarios, no aborda las fallas estructurales del mercado de transporte urbano en Arequipa. Existe una evidente ineficiencia operativa caracterizada por sobreoferta de rutas y baja calidad del servicio, lo que manifiesta una pésima planificación. 
-
-A continuación, se analizan los efectos del cambio tarifario sobre los distintos actores del mercado, respondiendo a las interrogantes planteadas:
-
-\begin{itemize}
-    \item \textbf{Efectos sobre los ingresos de los operadores:} Dado que la demanda ha demostrado ser matemáticamente inelástica en el corto plazo con una elasticidad de -0.18, un aumento en la tarifa tenderá a \textbf{incrementar los ingresos totales} de los operadores. La reducción en la cantidad demandada es proporcionalmente mucho menor que la subida del precio. Sin embargo, si la calidad no mejora, la demanda se volverá elástica a mediano plazo, lo que terminará reduciendo sus ingresos (Escobar et al., 2020).
-    
-    \item \textbf{Efectos sobre estudiantes, trabajadores y hogares vulnerables:} Estos grupos son los grandes perdedores del ajuste. El transporte es una demanda esencial y un alza del 22\,\% en la tarifa erosiona el poder adquisitivo de los hogares de menores ingresos, limitando su acceso a educación y empleo, y generando potencial exclusión social (Mitric \& Carruthers, 2005).
-    
-    \item \textbf{El rol de la informalidad como bien sustituto:} La informalidad actúa como un techo para el abuso de poder de mercado del sistema formal. Si el precio sube a S/ 2.20 sin mejoras en la frecuencia o seguridad, los usuarios migrarán hacia colectivos informales o adquirirán vehículos menores (Defensoría del Pueblo, 2022). Esto acelerará la transición de la demanda de inelástica a elástica.
-    
-    \item \textbf{La ineficiencia de la sobreoferta:} La presencia de un 51\,\% de sobreoferta de rutas y un 39\,\% de exceso de buses representa una falla crítica. Hay demasiados operadores compitiendo irracionalmente por la misma demanda, incurriendo en costos muertos por el combustible quemado en buses vacíos. Aprobar el alza sin corregir esto significa trasladar al usuario el costo de la ineficiencia empresarial.
-    
-    \item \textbf{Inelasticidad temporal vs. Elasticidad a largo plazo:} A corto plazo, la demanda es inelástica porque reorganizar la vida mudándose o cambiando de trabajo toma tiempo. A largo plazo, el mercado arequipeño ofrece alternativas imperfectas pero reales como el transporte pirata o las motos que elevan la sensibilidad al precio.
-\end{itemize}
+\section{Marco Teórico}
+El sustento de esta investigación radica en la \textbf{Teoría de la Inversión en Educación} postulada por Theodore Schultz (1961), la cual define a la educación no como un simple bien de consumo, sino como una inversión productiva en capital humano que aumenta la capacidad económica futura del individuo. A esto se suma el principio de \textbf{maximización de la utilidad intertemporal}, donde el estudiante sacrifica ingresos presentes (incurriendo en un alto costo de oportunidad por su tiempo de estudio y gastos académicos) confiando en obtener un flujo de ingresos futuros significativamente mayor que compense la inversión inicial.
 
 % --- SECCIÓN 6 ---
-\section{Propuesta final de política pública}
-
-Como consultoría económica, recomendamos \textbf{modificar} la propuesta inicial: autorizar un aumento condicionado y escalonado iniciando en S/ 2.00, supeditado a una reestructuración regulatoria inmediata. 
-
-Como evidencia el caso de Megabús en Pereira, la inelasticidad inicial permite que el ajuste financie los costos operativos crecientes, pero advierte que la demanda se vuelve altamente elástica a largo plazo ante la aparición de sustitutos informales y motocicletas. En Arequipa, con una informalidad del 65\,\%, el riesgo de fuga masiva de pasajeros es crítico. 
-
-Por ello, argumentamos que la política pública no debe limitarse a un ajuste de precios que premie la ineficiencia estructural. Proponemos transitar hacia un modelo de regulación de \textbf{Precios Tope RPI-X}, exigiendo a las empresas absorber parte de los costos mediante mejoras en la Productividad Total de Factores mediante la racionalización de las 214 rutas actuales. El alza tarifaria solo tiene viabilidad económica y social si se complementa con fiscalización del transporte informal y una tarifa diferenciada para proteger a los sectores vulnerables. Solo así, el ajuste fortalecerá el sistema formal en lugar de destruirlo.
+\section{Hipótesis}
+A mayor nivel de inversión educativa (medida en dedicación de horas al estudio y acceso efectivo a recursos tecnológicos e institucionales), mayor es el nivel de desarrollo profesional esperado (expectativas salariales y de empleabilidad) por el estudiante universitario de la UNSA.
 
 % --- SECCIÓN 7 ---
+\section{Operacionalización de variables}
+
+\begin{table}[h]
+\centering
+\caption{Cuadro de Operacionalización de Variables}
+\vspace{0.2cm}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllc}
+\toprule
+\textbf{Variables} & \textbf{Dimensiones} & \textbf{Indicadores} & \textbf{Escala de Medición} \\ \midrule
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}\textbf{Variable Independiente (VI):}\\ Inversión educativa\end{tabular}} & Dedicación al estudio & Horas semanales dedicadas a actividades académicas extra-aula & Razón \\ \cmidrule{2-4} 
+ & Acceso a recursos educativos & Gasto mensual en materiales, internet y tecnología (S/.) & Razón \\ \midrule
+\multirow{2}{*}{\begin{tabular}[c]{@{}l@{}}\textbf{Variable Dependiente (VD):}\\ Desarrollo profesional esperado\end{tabular}} & Expectativas salariales de reserva & Salario mínimo aceptable al egresar (S/.) & Razón \\ \cmidrule{2-4} 
+ & Percepción de empleabilidad & Nivel de confianza en obtener empleo afín a la carrera (1-5) & Ordinal \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+% --- SECCIÓN 8 ---
+\section{Metodología}
+\begin{itemize}
+    \item \textbf{Método y diseño:} Cuantitativo, diseño no experimental, transversal y correlacional.
+    \item \textbf{Población y muestra:} Estudiantes matriculados en pregrado en la UNSA durante el semestre 2026-1. Muestreo aleatorio estratificado por facultades.
+    \item \textbf{Técnicas e instrumentos:} Encuesta estructurada mediante cuestionario online.
+\end{itemize}
+
+% --- SECCIÓN 9 ---
+\section{Recolección de la información en campo}
+\textbf{Procedimientos o protocolos:} Diseño y validación por juicio de expertos de un cuestionario de 15 preguntas enviado mediante formularios digitales a los correos institucionales. \\
+\textit{Nota: En cumplimiento de las directrices del TIF para esta etapa, no se ejecuta la recolección empírica de datos ni se elabora el reporte de campo.}
+
+% --- SECCIÓN 10 ---
+\section{Procesamiento y análisis de Datos}
+\textbf{Procedimientos, protocolos o herramientas:} Estructuración de la base de datos teórica para ser procesada mediante software estadístico. Se planifica el uso de estadística descriptiva para las dimensiones y estadística inferencial (coeficiente de correlación de Pearson o Spearman) para contrastar la hipótesis. \\
+\textit{Nota: En cumplimiento de las directrices del TIF para esta etapa, no se incluyen contenidos de análisis estadístico ni reportes de resultados obtenidos.}
+
+% --- REFERENCIAS ---
 \section*{Referencias}
 \addcontentsline{toc}{section}{Referencias}
 
 \noindent\hangindent=1.27cm
-Defensoría del Pueblo (2022). \textit{Situación del transporte urbano en Arequipa}. \url{https://www.defensoria.gob.pe}
+Schultz, T. W. (1961). \textit{Investment in Human Capital}. The American Economic Review, 51(1), 1-17.
 
 \vspace{0.2cm}
 \noindent\hangindent=1.27cm
-Escobar, L. M., Parra, K., Marín, C. A., Bolaños, R. I., \& Martínez, D. A. (2020). \textit{Elasticidad de la demanda en el subsistema de transporte masivo del Área Metropolitana Centro Occidente en función del incremento de la tarifa}. Entre Ciencia e Ingeniería, 14(27), 63-72. \url{https://doi.org/10.31908/19098367.1780}
-
-\vspace{0.2cm}
-\noindent\hangindent=1.27cm
-Ministerio de Transportes y Comunicaciones [MTC] (2022). \textit{Situación del transporte urbano en el Perú}. \url{https://www.gob.pe/mtc}
-
-\vspace{0.2cm}
-\noindent\hangindent=1.27cm
-Mitric, S., \& Carruthers, R. (2005). \textit{The affordability of urban public transport}. Banco Mundial. \url{https://documents.worldbank.org}
-
-\vspace{0.2cm}
-\noindent\hangindent=1.27cm
-Municipalidad Provincial de Arequipa (2025). \textit{Plan de Movilidad Urbana Sostenible (PMUS) / Plan de mejora del transporte urbano}. \url{https://www.muniarequipa.gob.pe}
+Superintendencia Nacional de Educación Superior Universitaria [SUNEDU]. (2026). \textit{Ranking Histórico y de Excelencia de Universidades Peruanas}.
 
 \vspace{0.2cm}
 \noindent\hangindent=1.27cm
 Pindyck, R. S., \& Rubinfeld, D. L. (2013). \textit{Microeconomía} (8.ª ed.). Pearson.
-
-\vspace{0.2cm}
-\noindent\hangindent=1.27cm
-\textit{Nota:} Se integraron las referencias de "Análisis de impacto" (Tecnohumanismo) y "Pérez Gratelly" al marco general de evaluación de informalidad.
 
 \end{document}
