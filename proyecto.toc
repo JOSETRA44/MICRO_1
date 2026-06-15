@@ -1,0 +1,23 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Problema de investigación}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Descripción del problema}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Formulación del problema}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Pregunta de investigación}{3}{subsection.1.3}%
+\contentsline {section}{\numberline {2}Justificación de la investigación}{3}{section.2}%
+\contentsline {section}{\numberline {3}Objetivos de investigación}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Objetivo general}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Objetivos específicos}{3}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Antecedentes de la investigación}{3}{section.4}%
+\contentsline {section}{\numberline {5}Marco teórico}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Teoría del capital humano}{4}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}La función de ingresos de Mincer}{4}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Principio de maximización de la utilidad intertemporal y costo de oportunidad}{5}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Fallas de mercado y bienes públicos en educación}{5}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Brecha de competencias (\textit {skill mismatch})}{5}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Marco conceptual}{5}{subsection.5.6}%
+\contentsline {section}{\numberline {6}Hipótesis}{6}{section.6}%
+\contentsline {section}{\numberline {7}Operacionalización de la hipótesis}{6}{section.7}%
+\contentsline {section}{\numberline {8}Metodología}{6}{section.8}%
+\contentsline {section}{\numberline {9}Recolección de la información en campo}{7}{section.9}%
+\contentsline {section}{\numberline {10}Procesamiento y análisis de datos}{7}{section.10}%
+\contentsline {section}{Referencias}{7}{section.10}%
