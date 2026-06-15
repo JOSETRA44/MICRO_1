@@ -2,3 +2,21 @@ skills-lock.json
 .antigravity.json
 estructura.md
 indicaciones.md
+
+# Credenciales y scripts de prueba (contienen API Keys)
+config.json
+scopus_cli.py
+test_scopus.py
+
+# Directorios de configuración de IA y cache local
+.gemini/
+.cache/
+
+# Archivos temporales generados por LaTeX al compilar
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
